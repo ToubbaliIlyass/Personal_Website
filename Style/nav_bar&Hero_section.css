@@ -1,0 +1,103 @@
+body {
+    background-color: #EFF8F8;
+    font-family: "Inter", sans-serif;
+    line-height: 1.3;
+    min-width: 1000px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element’s total width and height */
+}
+
+a {
+    color: #1E2B33; /* Set your preferred color */
+    text-decoration: none;
+}
+.home {
+    text-decoration: underline;
+}
+.logo_container{
+    width: 50px;
+
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 50px;
+}
+.list {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.nav_bar  {
+    margin: 20px;
+   
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.line {
+    border: none; /* Removes the default border */
+    height: 2px; /* Thickness of the line */
+    background-color:#1E2B33; /* Line color */
+    width: auto; /* Line width (adjust as needed) */
+    margin: 20px auto; /* Center the line and add space around it */
+}
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.first {
+    width: 500px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.second {
+    width: 550px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.highlighted {
+    background-color: #F9C535; /* Adds a background color */
+    padding: 2px 5px 2px 5px ; /* Adds space around the word */
+    border-radius: 10px; /* Applies rounded corners */
+    font-weight: bold; /* Optional: Adds bold text */
+}
+
+.CTA {
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    border: 0px solid black; /* Adds a border around the button */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #f0f0f0; /* Button background */
+    font-size: 16px;
+    cursor: pointer; /* Makes the button clickable */
+    border-radius: 20px;
+    background-color: #F6DF85;
+
+    font-size: 24px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
