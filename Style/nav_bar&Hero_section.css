@@ -19,7 +19,7 @@ a {
 }
 .logo_container{
     width: 50px;
-
+ 
 }
 .logo {
     width: 100%;
@@ -68,6 +68,8 @@ a {
     text-align: center;
     font-size: 48px;
     font-weight: bolder;
+
+    margin-top: 100px;
 }
 .second {
     width: 550px;
@@ -101,3 +103,9 @@ a {
 
 }
 
+.background {
+    position: absolute;
+    margin-top: 200px;
+}
+
+ 
