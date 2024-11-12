@@ -1,0 +1,29 @@
+.white_space {
+    height: 1100px; /*only for now to view it nicely*/
+}
+
+
+.story_section  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 500px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 46px 0 46px 0;
+}
+
+.key_element {
+    font-weight: bold;
+}
+
+
+#PathBack {
+    stroke-dasharray: 1000; /* You can adjust this value based on the path length */
+    stroke-dashoffset: 1000; /* Start with the stroke completely hidden */
+    transition: all 0.3s ease;
+}

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #EFF8F8;
     font-family: "Inter", sans-serif;
@@ -59,8 +63,8 @@ a {
     min-width: 800px;
     height: 100vh;
     margin: 0;
-    padding: 0;
-   
+    padding: 0; 
+
 }
 
 .first {
@@ -70,12 +74,14 @@ a {
     font-weight: bolder;
 
     margin-top: 100px;
+    z-index: 1;
 }
 .second {
     width: 550px;
     text-align: center;
     font-size: 30px;
     font-weight: 400;
+    z-index: 1;
 }
 
 .highlighted {
@@ -100,12 +106,28 @@ a {
     font-size: 24px;
     font-weight: 500;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 
 }
 
+
+
 .background {
-    position: absolute;
+    position: fixed;
     margin-top: 200px;
+    min-width: 1000px;
+    /* width: 80%; */
+    height: auto; 
+    z-index: 0; 
+}
+
+.svg-line {
+    position: fixed;
+    margin-top: 210px;
+    min-width: 1000px;
+    /* width: 80%; */
+    height: auto; 
+    z-index: 0; 
 }
 
  
